@@ -22,7 +22,7 @@ body{
     border-radius: 8px;
 }
 
-#secondaryBtn{
+.secondaryBtn{
     background-color: #5A87D4;
     color: #fff;
     padding: 4px 16px;
@@ -118,6 +118,17 @@ body{
 /*suggestion end*/
 
 /*card start*/
+.cardTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+ }
+
+.firstTitle, .secondTitle{
+    color: #333;
+}
+
 .cardWarpper{
     display: flex;
     gap: 16px;
@@ -148,6 +159,7 @@ body{
     align-items: center;
     border: 1px solid #00000037;
     border-radius: 8px;
+    padding: 0 4px;
 }
 .card img{
     max-width: 250px;
@@ -155,14 +167,51 @@ body{
 
 .card h4{
     font-size: 20px;
+    margin: 8px;
+    width: 100%;
 }
 
 .card h6{
     font-size: 16px;
+    margin: 0;
+    width: 100%;
 }
 
 
 .card #secondaryBtn{
     margin: 20px;
+    width: 100%;
+    
 }
 /*card end*/
+
+/*arrivals start*/
+.lastsection{
+    border-top: 1px solid #333;
+    background-color: #F8F9FB;
+    padding: 20px;
+
+}
+.arrivals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 30px;
+    border-top: 1px solid #333;
+}
+
+.arrivalsCard{
+    max-width: 140px;
+    max-height: 110px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgb(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*arrivals end*/
