@@ -15,7 +15,7 @@ body{
     margin: 0 auto;
 }
 
-#primaryBtn{
+.primaryBtn{
     background-color: #E44D26;
     color: #fff;
     padding: 4px 16px;
@@ -194,7 +194,7 @@ body{
 }
 .arrivals{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 80px;
     margin-bottom: 30px;
@@ -213,5 +213,72 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #3333331f;
+}
+
+.arrivalsCard h4{
+    font-size: 20px;
+    margin: 8px;
 }
 /*arrivals end*/
+
+/*footer start*/
+footer{
+    background-color: #2A3B4D;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+    border-bottom: 1px solid #fff;
+}
+
+.searchBar h3{
+    color: #F8F9FB;
+    font-size: 18px;
+}
+
+.searchBar input{
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.searchBar button{
+   font-size: 18px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items:baseline;
+}
+
+.items h5{
+    color: #fff;
+}
+
+.items a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.items ul{
+   list-style-type: none;
+}
+
+.follow{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.icon{
+    font-size: 8px;
+    background-color: #fff;
+}
+/*fotter end*/
