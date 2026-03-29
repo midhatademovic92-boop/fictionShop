@@ -170,6 +170,7 @@ body{
     border-radius: 8px;
     padding: 0 4px;
     width: 200px;
+    box-shadow: 0px 2px 8px rgb(0, 0, 0, 0.1);
 }
 
 .card img{
@@ -295,3 +296,49 @@ footer{
     padding: 4px;
 }
 /*fotter end*/
+
+
+/*media start*/
+@media (max-width: 926px){
+    .cardWarpper, .productList, .rightSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 772px) {
+    .navbar{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+}
+    .welcomeSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+    .suggArticle, .cardWarpper, .productList, .rightSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    footer{
+        background-color: var(--primary-btn-color);
+    }
+    input::placeholder{
+        color: var(--primary-btn-color);
+    }
+    .arrivalsCard{
+        background-color: var(--background-color);
+        color: var(--white-color);
+    }
+
+}
+
+/*media end*/
