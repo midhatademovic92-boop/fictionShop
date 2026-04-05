@@ -168,7 +168,7 @@ body{
     align-items: center;
     border: 1px solid var(--border-black-color);
     border-radius: 8px;
-    padding: 0 4px;
+    padding: 4px 4px;
     width: 200px;
     box-shadow: 0px 2px 8px rgb(0, 0, 0, 0.1);
 }
